@@ -3,7 +3,7 @@
   margin: 0;
 }
 @font-face {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   src: url(Montserrat-VariableFont_wght.ttf);
 }
 :root {
@@ -16,7 +16,7 @@ body {
   display: flex;
   background-color: var(--1);
   color: var(--4);
-  font-family: Montserrat;
+  font-family: "Montserrat";
   text-align: center;
   flex-direction: column;
 }

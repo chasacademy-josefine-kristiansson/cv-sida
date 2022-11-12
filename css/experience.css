@@ -22,14 +22,17 @@ body {
 }
 header {
   font-size: 150%;
-  flex-direction: column;
   padding: 10px;
   border: 5px solid var(--2);
 }
 ul {
   list-style-type: none;
 }
-#demo {
+#arbetserfarenheter {
+  font-size: 50px;
+}
+#utbildningar {
+  font-size: 50px;
 }
 nav ul {
   display: flex;

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
     <title>Josefine Kristiansson</title>
   </head>
 
@@ -15,7 +15,7 @@
     <nav>
       <ul>
         <li><a href="index.html" class="about">About</a></li>
-        <li><a href="experiance.html" class="experiance">Experiance</a></li>
+        <li><a href="experiance.html" class="experiance">Experience</a></li>
         <li><a href="portfolio.html" class="active">Portfolio</a></li>
         <li><a href="contact.html" class="contact">Contact</a></li>
       </ul>
@@ -23,22 +23,36 @@
     <main>
       <ul>
         <li>Navigation Projekt</li>
-        <img src="Project1.png" alt="Navigation" />
+        <img id="projectOne" src="Project1.png" alt="Navigation Project" />
       </ul>
       <ul>
         <li>Trafikljus med Flexbox</li>
-        <img src="Project2.png" alt="Flexbox Trafikljus" />
+        <img id="projectTwo" src="Project2.png" alt="Flexbox Trafikljus" />
       </ul>
       <ul>
-        <li>Reponsive Hemsida med Flexbox</li>
-        <img src="Project3.png" alt="Reponsive Flexboxes" />
+        <li>Guess the Number</li>
+        <img
+          id="projectThree"
+          src="Project3.png"
+          alt=" Play it here > https://chasacademy-josefine-kristiansson.github.io/guessthenumber/"
+        />
       </ul>
       <ul>
         <li>Profilkort för Margaret Hamilton</li>
-        <img src="Project4.png" alt="Profile Card of Margaret Hamilton" />
+        <img
+          id="projectFour"
+          src="Project4.png"
+          alt="Profile Card for Margaret Hamilton"
+        />
       </ul>
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01" />
+        <div id="caption"></div>
+      </div>
     </main>
 
     <footer>CV 2022</footer>
+    <script src="js/portfolio.js"></script>
   </body>
 </html>

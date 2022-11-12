@@ -37,6 +37,22 @@ nav ul {
   background-color: var(--2);
   flex-direction: column;
 }
+#Hello {
+  font-size: 40px;
+  padding-top: 10px;
+  font-style: bold;
+}
+
+#Kompetenser {
+  font-size: 40px;
+  padding-top: 10px;
+  font-style: bold;
+}
+#Intressen {
+  font-size: 40px;
+  padding-top: 10px;
+  font-style: bold;
+}
 nav a {
   padding: 4px 20px;
 }

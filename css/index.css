@@ -29,8 +29,6 @@ header {
 ul {
   list-style-type: none;
 }
-#demo {
-}
 nav ul {
   display: flex;
   justify-content: space-evenly;

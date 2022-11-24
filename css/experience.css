@@ -123,6 +123,9 @@ footer {
   margin-right: 5px;
   justify-content: end;
 }
+.underTitle {
+  font-size: 50px;
+}
 
 @media (min-width: 850px) {
   nav ul {

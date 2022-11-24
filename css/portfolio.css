@@ -46,7 +46,6 @@
 .modal-content {
   margin: auto;
   display: block;
-  max-width: 700px;
 }
 
 #caption {
@@ -129,7 +128,6 @@ header p {
 main {
   display: flex;
   justify-content: center;
-  flex-direction: column;
   background-color: var(--2);
 }
 main li {
@@ -184,10 +182,13 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 100%;
+  max-height: 50%;
   justify-content: center;
   padding: 1rem;
+}
+div {
+  height: fit-content;
 }
 
 footer {
